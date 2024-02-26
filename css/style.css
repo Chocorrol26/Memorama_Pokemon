@@ -26,10 +26,12 @@ figure {
     transform: perspective(600px)rotateY(0deg);
     cursor: pointer;
 }
-figure:hover{
+
+figure.opened{
     transform: perspective(600px)rotateY(180deg);
 }
-figure.back{
+
+figure .back{
     display: block;
     backface-visibility: hidden;
 }
